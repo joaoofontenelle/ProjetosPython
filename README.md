@@ -1,25 +1,27 @@
+Aqui está a versão **americanizada (em inglês)** do seu README em Markdown:
+
 ````markdown
-# 🐍 Projetos Python  
+# 🐍 Python Projects  
 
-Este repositório reúne diversos projetos e exercícios desenvolvidos durante meus estudos em **Python 3**, com foco em **programação orientada a objetos, manipulação de listas, estruturas de repetição, funções e boas práticas**.  
+This repository gathers several projects and exercises developed during my studies in **Python 3**, focusing on **object-oriented programming, list manipulation, loops, functions, and best practices**.  
 
-Cada projeto representa uma etapa de aprendizado e pode servir como base para estudos, revisões ou evolução futura.  
+Each project represents a step in the learning journey and can serve as a foundation for study, review, or future improvements.  
 
 ---
 
-## 📂 Projetos e Algoritmos  
+## 📂 Projects and Algorithms  
 
-### 1. 🎬 Gerenciamento de Clientes e Planos de Streaming  
-Arquivo: `clientes.py`  
+### 1. 🎬 Streaming Clients and Plans Management  
+File: `clientes.py`  
 
-- Classe `Clientes` com atributos **nome, email e plano**.  
-- Lista de planos disponíveis: `Gold` e `Platinum`.  
-- Funcionalidades:  
-  - Mudar de plano.  
-  - Validar plano escolhido.  
-  - Assistir filme (com restrição baseada no plano do cliente).  
+- `Clientes` class with attributes **name, email, and plan**.  
+- Available plans: `Gold` and `Platinum`.  
+- Features:  
+  - Change plan.  
+  - Validate selected plan.  
+  - Watch a movie (restricted by the client’s plan).  
 
-➡️ Exemplo:  
+➡️ Example:  
 ```python
 cliente1 = Clientes('João', 'joao@email.com', 'Platinum')
 cliente1.mudar_plano('Gold')
@@ -28,84 +30,84 @@ cliente1.ver_filme('Star Wars', 'Platinum')
 
 ---
 
-### 2. 🏪 Sistema de Controle de Estoque
+### 2. 🏪 Inventory Control System
 
-Arquivo: `estoque.py`
+File: `estoque.py`
 
-* Menu interativo em console com as opções:
+* Console-based interactive menu with options:
 
-  1. Adicionar produto ao estoque
-  2. Consultar estoque
-  3. Remover produto do estoque (parcial ou total)
-  4. Sair do sistema
+  1. Add product to inventory
+  2. Check inventory
+  3. Remove product from inventory (partial or total)
+  4. Exit system
 
-* Estrutura de dados: lista de dicionários (`{'Produto': nome, 'Quantidade': valor}`)
+* Data structure: list of dictionaries (`{'Product': name, 'Quantity': value}`)
 
-* Uso de **loops, validações e tratamento de erros**.
-
----
-
-### 3. 👨‍💼 Sistema de Cadastro e Gestão de Funcionários
-
-Arquivo: `funcionarios.py`
-
-* Funções para:
-
-  * Cadastrar novos funcionários (com dados como CPF, RG, endereço, cargo, salário etc.).
-  * Listar funcionários ativos.
-  * Atualizar informações.
-  * Bloquear e desbloquear funcionários.
-
-* Destaques:
-
-  * Funções auxiliares para **formatação de CPF, RG e datas**.
-  * Controle de **status (Ativo/Inativo)** para colaboradores.
-  * Validações robustas para entradas do usuário.
+* Usage of **loops, validations, and error handling**.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+### 3. 👨‍💼 Employee Registration and Management System
+
+File: `funcionarios.py`
+
+* Functions for:
+
+  * Registering new employees (with data such as SSN, ID, address, role, salary, etc.).
+  * Listing active employees.
+  * Updating employee information.
+  * Blocking and unblocking employees.
+
+* Highlights:
+
+  * Helper functions for **formatting SSN, IDs, and dates**.
+  * **Status control (Active/Inactive)** for employees.
+  * Strong user input validations.
+
+---
+
+## 🛠️ Technologies Used
 
 * **Python 3.x**
-* Bibliotecas nativas: `time`, `os`
+* Native libraries: `time`, `os`
 
 ---
 
-## ▶️ Como Executar
+## ▶️ How to Run
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/joaoofontenelle/ProjetosPython.git
 ```
 
-2. Acesse a pasta do projeto:
+2. Navigate into the project folder:
 
 ```bash
 cd ProjetosPython
 ```
 
-3. Execute qualquer script:
+3. Run any script:
 
 ```bash
-python nome_do_arquivo.py
+python file_name.py
 ```
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Purpose
 
-Este repositório tem como objetivo:
+This repository aims to:
 
-* Consolidar conhecimentos adquiridos durante os estudos de Python.
-* Reunir projetos práticos que simulam **sistemas de uso real**.
-* Servir como portfólio de aprendizado e prática em programação.
+* Consolidate knowledge acquired during Python studies.
+* Gather practical projects that simulate **real-world systems**.
+* Serve as a portfolio of learning and programming practice.
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-Desenvolvido por **João Victório Dos Santos Fontenelle**
-📧 Contato: [joaofontenelle12570@gmail.com](mailto:joaofontenelle12570@gmail.com)
+Developed by **João Victório Dos Santos Fontenelle**
+📧 Contact: [joaofontenelle12570@gmail.com](mailto:joaofontenelle12570@gmail.com)
 
 ---
