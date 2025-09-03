@@ -103,14 +103,6 @@ Este repositório tem como objetivo:
 
 ---
 
-## 📌 Próximos Passos
-
-* Adicionar **testes unitários** para validar funcionalidades.
-* Implementar **persistência de dados** (ex: salvar em arquivos `.json` ou banco de dados SQLite).
-* Criar **interfaces gráficas (Tkinter ou PyQt)** para os sistemas de estoque e funcionários.
-
----
-
 ## 👨‍💻 Autor
 
 Desenvolvido por **João Victório Dos Santos Fontenelle**
