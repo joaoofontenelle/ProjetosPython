@@ -76,13 +76,13 @@ File: `funcionarios.py`
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/joaoofontenelle/ProjetosPython.git
+git clone https://github.com/joaoofontenelle/PythonProjects.git
 ```
 
 2. Navigate into the project folder:
 
 ```bash
-cd ProjetosPython
+cd PythonProjects
 ```
 
 3. Run any script:
