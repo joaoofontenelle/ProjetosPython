@@ -1,9 +1,3 @@
-Perfeito 👍 agora consigo estruturar um **README.md** completo para o seu repositório **ProjetosPython**, destacando os algoritmos que você desenvolveu.
-
-Aqui está uma versão organizada:
-
----
-
 ````markdown
 # 🐍 Projetos Python  
 
